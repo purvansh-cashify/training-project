@@ -1,8 +1,11 @@
+"""
+This is the main .py file which will run directly
+"""
+
 import sys
+from other import func
 
 sys.path.append('/home/purvansh/PycharmProjects/training-project/proj-1')
-
-from other import func
 
 
 def new_func(x, y):
@@ -26,7 +29,6 @@ def kwarg_func(**kwargs):
 
 
 if __name__ == '__main__':
-
     print("Methods - \n")
 
     new_func(y="Hello World!", x="HI")
