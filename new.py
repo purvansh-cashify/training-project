@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
     func()
 
-    return_five()
+    print(return_five())
 
     print(type(return_five()))
 

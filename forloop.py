@@ -2,7 +2,6 @@
 This is the .py file for 'for loops'.
 """
 
-
 if __name__ == '__main__':
 
     for i in range(0, 10):  # for loop and range
@@ -30,3 +29,15 @@ if __name__ == '__main__':
 
     for key, value in dict1.items():
         print(key, value)
+
+    ele = 1
+    for ele in range(0, 100):
+        if ele == 10:
+            break  # break statement, ends loop
+        elif ele == 8:
+            pass  # pass statement, will pass through the loop without executing
+        if ele == 6:
+            continue  # continues to the next iteration of the loop
+
+        print("ele is ", ele)
+        ele += 1
