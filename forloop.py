@@ -1,5 +1,5 @@
 """
-This is the .py file for 'for loops'.
+This is the .py file for 'loops'.
 """
 
 if __name__ == '__main__':
@@ -53,3 +53,9 @@ if __name__ == '__main__':
             nested.append([i, j])
 
     print(nested)
+
+    for i in nested:  # if-else in for loop
+        if sum(i) < 5:
+            pass
+        else:
+            print("Sum = ", sum(i))
