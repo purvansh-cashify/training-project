@@ -41,3 +41,7 @@ if __name__ == '__main__':
 
         print("ele is ", ele)
         ele += 1
+
+    lst = [x + 1 for x in range(0, 10)]  # list comprehension
+
+    print(lst)

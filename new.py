@@ -46,3 +46,4 @@ if __name__ == '__main__':
     kwarg_func(**{'a': 1, 'b': 1, 'c': 1})
 
     kwarg_func(**{'a': 1, 'b': 1, 'c': 1, 'd': 2})
+

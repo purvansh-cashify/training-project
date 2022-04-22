@@ -1,1 +1,8 @@
 music.mp3
+*.mp3
+mu*r.mp3
+mu?.mp3
+*.ckpt
+pdd-*.jpeg
+pdd-*.png
+pdd-*.*
