@@ -45,3 +45,11 @@ if __name__ == '__main__':
     lst = [x + 1 for x in range(0, 10)]  # list comprehension
 
     print(lst)
+
+    nested = []
+
+    for i in range(0, 5):  # nested for loop
+        for j in range(0, 5):
+            nested.append([i, j])
+
+    print(nested)
