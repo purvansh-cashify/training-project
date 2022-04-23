@@ -59,3 +59,10 @@ if __name__ == '__main__':
             pass
         else:
             print("Sum = ", sum(i))
+
+    num = 0
+
+    while num < 10:  # while loop
+
+        print("Hello", num, "!")
+        num += 1
