@@ -2,6 +2,8 @@
 This is the .py file for 'loops'.
 """
 
+import other
+
 if __name__ == '__main__':
 
     for i in range(0, 10):  # for loop and range
@@ -66,3 +68,5 @@ if __name__ == '__main__':
 
         print("Hello", num, "!")
         num += 1
+
+    other.func()    # Using the same method in multiple files

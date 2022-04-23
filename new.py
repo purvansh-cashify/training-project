@@ -3,7 +3,7 @@ This is the main .py file which will run directly
 """
 
 import sys
-from other import func
+from other import func  # importing one file from another
 
 sys.path.append('/home/purvansh/PycharmProjects/training-project/proj-1')
 
