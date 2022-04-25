@@ -56,11 +56,10 @@ if __name__ == '__main__':
 
     print(nested)
 
-    for i in nested:  # if-else in for loop
-        if sum(i) < 5:
-            pass
-        else:
-            print("Sum = ", sum(i))
+    for i in range(95, 100):  # for-else in for loop
+        print(i)
+    else:
+        print("DONE")
 
     num = 0
 
@@ -69,4 +68,4 @@ if __name__ == '__main__':
         print("Hello", num, "!")
         num += 1
 
-    other.func()    # Using the same method in multiple files
+    other.func()  # Using the same method in multiple files
