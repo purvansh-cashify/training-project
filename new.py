@@ -31,7 +31,7 @@ def kwarg_func(**kwargs):
 if __name__ == '__main__':
     print("Methods - \n")
 
-    new_func(y="Hello World!", x="HI")
+    new_func(y=str("Hello World!"), x=str("HI"))  # specifying data type of argument
 
     func()
 
@@ -46,4 +46,3 @@ if __name__ == '__main__':
     kwarg_func(**{'a': 1, 'b': 1, 'c': 1})
 
     kwarg_func(**{'a': 1, 'b': 1, 'c': 1, 'd': 2})
-
