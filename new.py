@@ -28,10 +28,16 @@ def kwarg_func(**kwargs):
         print(key, value)
 
 
+def greeting(name: str) -> str:  # specifying using typing
+    return 'Hello ' + name
+
+
 if __name__ == '__main__':
     print("Methods - \n")
 
     new_func(y=str("Hello World!"), x=str("HI"))  # specifying data type of argument
+
+    print(greeting("Purvansh"))
 
     func()
 
