@@ -17,15 +17,15 @@ my_values = [
 
 df = pd.DataFrame(my_values, columns=my_headers)  # using pandas
 
-#df.to_csv('employeedata.csv', index=False)
+# df.to_csv('employeedata.csv', index=False)
 
 df.loc[0, 'Name'] = 'Akhil'
 
-#df.to_csv('employeedata.csv', index=False)
+# df.to_csv('employeedata.csv', index=False)
 
 
-try:    # first instance of exception handling
-    a = 8/0
+try:  # first instance of exception handling
+    a = 8 / 0
 except ZeroDivisionError:
     print("Division not possible.")
 
@@ -33,5 +33,10 @@ try:
     f = open("file.txt", "r")
 except FileNotFoundError:
     print('File Not Found')
-finally:    # executes regardless the exception has been handled or not
+finally:  # executes regardless the exception has been handled or not
     print("All exceptions have been handled.")
+
+i = 10
+
+if i > 9:
+    raise ValueError('Represents a hidden bug, do not catch this')  # raising exception manually
