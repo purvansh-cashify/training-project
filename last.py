@@ -28,3 +28,10 @@ try:    # first instance of exception handling
     a = 8/0
 except ZeroDivisionError:
     print("Division not possible.")
+
+try:
+    f = open("file.txt", "r")
+except FileNotFoundError:
+    print('File Not Found')
+finally:    # executes regardless the exception has been handled or not
+    print("All exceptions have been handled.")
