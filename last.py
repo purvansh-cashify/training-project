@@ -17,8 +17,14 @@ my_values = [
 
 df = pd.DataFrame(my_values, columns=my_headers)  # using pandas
 
-df.to_csv('employeedata.csv', index=False)
+#df.to_csv('employeedata.csv', index=False)
 
 df.loc[0, 'Name'] = 'Akhil'
 
-df.to_csv('employeedata.csv', index=False)
+#df.to_csv('employeedata.csv', index=False)
+
+
+try:    # first instance of exception handling
+    a = 8/0
+except ZeroDivisionError:
+    print("Division not possible.")
